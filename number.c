@@ -21,7 +21,7 @@ cell check_digit(char c)
 	// '0'..'9' range
 	return digit;
     }
-    
+
     // The base is greater than 10 so we have to deal with alphabetic
     // characters 'A'..'Z' or 'a'..'z'
     if (c >= 'a' && c <= 'z') {
